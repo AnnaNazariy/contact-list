@@ -16,6 +16,6 @@ public class update {
         String newname = s.next();
         arr.get(choice - 1).setName(newname);
         arr.get(choice - 1).setNumber(newnumber);
-        System.out.println("updated..");
+        System.out.println("Updated..");
     }
 }
