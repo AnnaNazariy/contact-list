@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 public class one {
 
-    static String[] commands = {"exit", "showAll", "add", "delete", "update"};
+    static String[] commands = {"Exit", "ShowAll", "Add", "Delete", "Update"};
 
     static List<Contact> contactsList = new ArrayList<>();
 
