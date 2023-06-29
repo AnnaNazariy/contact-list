@@ -1,0 +1,30 @@
+# Створено https://www.toptal.com/developers/gitignore/api/java
+# Редагувати на https://www.toptal.com/developers/gitignore?templates=java
+
+### Java ###
+# Скомпільований файл класу
+*.клас
+
+# Файл журналу
+*.log
+
+# файли BlueJ
+*.ctxt
+
+# Мобільні інструменти для Java (J2ME)
+.mtj.tmp/
+
+# Файли пакетів #
+*.jar
+*.війна
+*.нар
+*.вухо
+*.zip
+*.tar.gz
+*.rar
+
+# журнали збоїв віртуальної машини див. http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+# Кінець https://www.toptal.com/developers/gitignore/api/java
