@@ -1,7 +1,8 @@
 package practical5;
+import lombok.Data;
 
-public class Contact implements Comparable<Contact> {
-
+@Data
+public class Contact {
     private String name;
     private String number;
 
@@ -11,30 +12,25 @@ public class Contact implements Comparable<Contact> {
     }
 
 
-    public String getName() {
-        return name;
-    }
+        public String getName() {
+            return name;
+        }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+        public void setName(String name) {
+            this.name = name;
+        }
 
-    public String getNumber() {
-        return number;
-    }
+        public String getNumber() {
+            return number;
+        }
 
-    public void setNumber(String number) {
-        this.number = number;
-    }
+        public void setNumber(String number) {
+            this.number = number;
+        }
 
-    @Override
-    public String toString() {
-        return "name: " + name + ". phone " + number;
-    }
+        @Override
+        public String toString() {
+            return "name: " + name + ". phone " + number;
+        }
 
-    @Override
-    public int compareTo(Contact o) {
-        return this.name.compareTo(o.name);
     }
-}
-
